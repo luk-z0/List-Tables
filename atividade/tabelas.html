@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Boletim</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      table,
+      td,
+      th {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Resultados do Semestre</h1>
+    <table border="1">
+      <thead>
+        <caption>
+          Resultados do 1º Bimestre
+        </caption>
+        <th colspan=" 4">Resultados</th>
+
+        <tr>
+          <th>Alunos</th>
+          <th>Situação</th>
+          <th>Nota 1</th>
+          <th>Nota 2</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Agata</td>
+          <td>Matriculada</td>
+          <td>7.5</td>
+          <td>10.0</td>
+        </tr>
+
+        <tr>
+          <td>Joana</td>
+          <td>Matriculada</td>
+          <td>8.4</td>
+          <td>9.1</td>
+        </tr>
+
+        <tr>
+          <td>Miguel</td>
+          <td>Matriculado</td>
+          <td>7.0</td>
+          <td>7.0</td>
+        </tr>
+
+        <tr>
+          <td>Priscila</td>
+          <td colspan="4">Trancada</td>
+        </tr>
+      </tbody>
+    </table>
+    <br /><br />
+    <table>
+      <thead>
+        <caption>
+          Resultados 2º Bimestre
+        </caption>
+        <tr>
+          <td colspan="2">&nbsp;</td>
+          <th colspan="2">Português</th>
+          <th colspan="2">Matemática</th>
+        </tr>
+        <tr>
+          <th>Situação</th>
+          <th>Alunos</th>
+          <th>Nota 1</th>
+          <th>Nota 2</th>
+          <th>Nota 1</th>
+          <th>Nota 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <th rowspan="4">Matriculado</th>
+        <tr>
+          <td>Agata</td>
+          <td>8.5</td>
+          <td>10.0</td>
+          <td>5.5</td>
+          <td>6.0</td>
+        </tr>
+
+        <tr>
+          <td>Joana</td>
+          <td>8.4</td>
+          <td>9.1</td>
+          <td>9.4</td>
+          <td>7.1</td>
+        </tr>
+        <tr>
+          <td>Miguel</td>
+          <td>9.0</td>
+          <td>5.0</td>
+          <td>10.0</td>
+          <td>10.0</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <th rowspan="4">Trancado</th>
+        <tr>
+          <td colspan="6">Priscila</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
